@@ -1,0 +1,26 @@
+/* Feed Styles */
+.feed-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.feed-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.no-posts {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 8px;
+  color: #65676b;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
